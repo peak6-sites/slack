@@ -303,6 +303,10 @@ func TestMessageEvent(t *testing.T) {
 				},
 				"previous_message": {
 					"text": "Live long and prospect."
+				},
+				"metadata": {
+					"event_type": "type",
+					"event_payload": {"key": "value"}
 				}
 		}
 	`)

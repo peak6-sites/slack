@@ -281,6 +281,9 @@ type MessageEvent struct {
 	// thread_broadcast. If this is not a thread_broadcast message event, this
 	// value is nil.
 	Root *MessageEvent `json:"root"`
+
+	// Metadata is the user-specified metadata attached to the message
+	Metadata slack.SlackMetadata `json:"metadata,omitempty"`
 }
 
 // MemberJoinedChannelEvent A member joined a public or private channel
