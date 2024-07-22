@@ -290,6 +290,7 @@ func TestMessageEvent(t *testing.T) {
 				"text": "Live long and prospect.",
 				"ts": "1355517523.000005",
 				"event_ts": "1355517523.000005",
+				"app_id":"A123456789",
 				"channel_type": "channel",
 				"source_team": "T3MQV36V7",
 				"user_team": "T3MQV36V7",

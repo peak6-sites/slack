@@ -249,6 +249,7 @@ type MessageEvent struct {
 	Channel         string `json:"channel"`
 	ChannelType     string `json:"channel_type"`
 	EventTimeStamp  string `json:"event_ts"`
+	AppID           string `json:"app_id"`
 
 	// When Message comes from a channel that is shared between workspaces
 	UserTeam   string `json:"user_team,omitempty"`
